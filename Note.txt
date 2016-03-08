@@ -5,3 +5,12 @@ Un cavalier se déplace d'une manière particulière :
 - Deux cases dans un sens, puis 1 case perpendiculairement.
 
 Donc un cavalier sur une case noire se retrouvera sur une case blanche, ou un cavalier sur une case blanche sera sur une case noire, après un mouvement.
+
+
+	Attention un échiquier doit contenir un nombre paire de cases pour pouvoir réaliser l'échiquier d'Euler! 
+	Par conséquent si on laisse l'échiquier libre en taille il faut vérifier 2 paramètres :
+		- Au moins un des côtés doit être paire (Admettons que Nombre paire = NP && Nombre impair = NI) : 
+			-NP*NP = NP
+			-NI*2 = NP
+			-NI*NP = NI * 2 * NP = NP * NP
+		- Et que la grille soit assez grande pour que le cavalier fasse 1 déplacement.
