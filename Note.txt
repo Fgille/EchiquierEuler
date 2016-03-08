@@ -1,0 +1,7 @@
+Un échiquier fait 64 cases. Soit 8x8 cases.
+Deux cases côtes à côtes ne peuvent pas être de la même couleur.
+
+Un cavalier se déplace d'une manière particulière :
+- Deux cases dans un sens, puis 1 case perpendiculairement.
+
+Donc un cavalier sur une case noire se retrouvera sur une case blanche, ou un cavalier sur une case blanche sera sur une case noire, après un mouvement.
